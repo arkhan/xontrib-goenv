@@ -1,0 +1,33 @@
+* Xontrib-goenv
+  :PROPERTIES:
+  :CUSTOM_ID: xontrib-goenv
+  :END:
+
+[[https://github.com/syndbg/goenv][Goenv]] [[https://xon.sh][xonsh]]
+integration.
+
+** Install
+   :PROPERTIES:
+   :CUSTOM_ID: install
+   :END:
+
+Install using pip
+
+#+BEGIN_EXAMPLE sh
+  pip install xontrib-goenv
+#+END_EXAMPLE
+
+Add to your =.xonshrc=:
+
+#+BEGIN_EXAMPLE sh
+  xontrib load goenv
+#+END_EXAMPLE
+
+** Usage
+   :PROPERTIES:
+   :CUSTOM_ID: usage
+   :END:
+
+This xontrib initializes =pyenv= when =xonsh= is started. After
+initialization =pyenv= commands works as they would do in any /classic/
+shell.
